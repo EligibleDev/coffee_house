@@ -13,7 +13,7 @@ const HomeHeader = () => {
             <header className="absolute z-20 container mx-auto top-0 left-0 right-0 px-8 xl:px-0">
                 <nav className="flex justify-between items-center py-6">
                     <div className="hidden lg:flex flex-1 justify-start items-center gap-3">
-                        <p className="text-white w-max">Follow Us</p>
+                        <p className="text-white text-[1rem]">Follow Us</p>
                         <hr className="w-4" />
                         <div className="flex justify-between items-center gap-2">
                             {socials?.map((item, index) => (
@@ -27,7 +27,7 @@ const HomeHeader = () => {
                     </div>
 
                     <Link to="/" className="">
-                        <img className="w-32" src={logo} alt="" />
+                        <img className="w-32 logo animate-spin" src={logo} alt="" />
                     </Link>
 
                     <div className="flex-1 hidden sm:flex justify-end items-center">
