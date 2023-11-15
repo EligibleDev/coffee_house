@@ -20,7 +20,7 @@ const Banner = () => {
                             <span className="text-primary-green">Time to Discover </span>
                             Coffee House
                         </h1>
-                        <p className="w-full lg:w-2/3 pt-4 pb-10 px-3 mx-auto">
+                        <p className="w-full lg:w-2/3 pt-4 pb-10 px-3 mx-auto font-jost text-lg">
                             Savor artisanal delights and aromatic brews in our cozy haven;
                             where every sip tells a story, and every bite is a moment of
                             pure indulgence

@@ -1,10 +1,11 @@
-import PrimaryButton from "../../components/PrimaryButton/PrimaryButton";
 import Banner from "./sections/Banner/Banner";
+import Intro from "./sections/Intro/Intro";
 
 const Home = () => {
     return (
-        <><Banner/>
-     
+        <>
+            <Banner />
+            <Intro />
         </>
     );
 };

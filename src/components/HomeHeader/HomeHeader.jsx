@@ -27,7 +27,7 @@ const HomeHeader = () => {
                     </div>
 
                     <Link to="/" className="">
-                        <img className="w-32 logo animate-spin" src={logo} alt="" />
+                        <img className="w-32" src={logo} alt="" />
                     </Link>
 
                     <div className="flex-1 hidden sm:flex justify-end items-center">
