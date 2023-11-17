@@ -45,7 +45,7 @@ const Intro = () => {
                 <div className="w-full lg:w-1/2 relative">
                     <div className="absolute p-[87px] -top-1 md:top-8 lg:top-3.5 xl:top-10 left-2 md:left-40 lg:left-[86px] xl:left-40 rounded-full border-[3px] border-primary-green border-dashed animate-spin"></div>
 
-                    <div className="absolute bg-white top-2 md:top-10 lg:top-6 xl:top-[50px] left-4 md:left-[170px] lg:left-24 xl:left-[170px] flex flex-col justify-center items-center rounded-full w-40 h-40 shadow-[0_0_30px_rgba(0,0,0,0.1)]">
+                    <div className="absolute bg-white top-1.5 md:top-[42px] lg:top-6 xl:top-[50px] left-[18px] md:left-[170px] lg:left-24 xl:left-[170px] flex flex-col justify-center items-center rounded-full w-40 h-40 shadow-[0_0_30px_rgba(0,0,0,0.1)]">
                         <h3 className="text-2xl font-bold ">Since</h3>
                         <h2 className="text-5xl font-bold text-primary-green">1962</h2>
                     </div>
