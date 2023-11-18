@@ -47,30 +47,6 @@ const WhyChooseUs = () => {
                     description="Maecenas dapibus mattis eros, at fermentum sapien malesuada sit amet. Quisque in sollicitudin eros."
                     direction="right"
                 />
-
-                {/* <div className="flex justify-end items-start gap-6">
-                    <div className="text-right">
-                        <h4 className="text-lg font-bold">High Quality</h4>
-
-                        <p className="font-jost opacity-75 leading-[1.7em]">
-                            Maecenas dapibus mattis eros, at fermentum sapien malesuada
-                            sit amet. Quisque in sollicitudin eros.
-                        </p>
-                    </div>
-                    <GiCoffeeBeans className="text-[15rem] text-primary-green h-fit" />
-                </div>
-
-                <div className="flex justify-end items-start gap-6">
-                    <div className="text-right">
-                        <h4 className="text-lg font-bold">High Quality</h4>
-
-                        <p className="font-jost opacity-75 leading-[1.7em]">
-                            Maecenas dapibus mattis eros, at fermentum sapien malesuada
-                            sit amet. Quisque in sollicitudin eros.
-                        </p>
-                    </div>
-                    <GiCoffeeBeans className="text-[15rem] text-primary-green h-fit" />
-                </div> */}
             </div>
         </section>
     );

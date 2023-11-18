@@ -30,7 +30,6 @@ const Testimonials = () => {
                         navigation={true}
                         className="mySwiper "
                     >
-                      
                         <SwiperSlide>
                             <div className="text-center w-full md:w-3/4 mx-auto ">
                                 <h3 className="text-lg md:text-2xl font-jost italic">

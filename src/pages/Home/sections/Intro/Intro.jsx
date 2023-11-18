@@ -22,14 +22,14 @@ const Intro = () => {
                     <div className="">
                         <a
                             href="mailto:mikailhossain0202@gmail.com"
-                            className="flex justify-start items-start gap-5 font-bold text-lg pl-6"
+                            className="flex justify-start w-fit items-start gap-5 font-bold text-lg pl-6"
                         >
                             <FaEnvelope className="text-primary-green text-3xl" />
                             <h4 className="">mikailhossain0202@gmail.com</h4>
                         </a>
                         <a
                             href="tell:+8801619152852"
-                            className="flex justify-start items-start gap-5 font-bold text-lg pl-6 mt-4"
+                            className="flex justify-start w-fit items-start gap-5 font-bold text-lg pl-6 mt-4"
                         >
                             <FaSquarePhone className="text-primary-green text-3xl" />
                             <h4 className="">+880 16191 52852</h4>

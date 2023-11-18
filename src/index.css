@@ -14,3 +14,7 @@ html {
     color: #4d8b55;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+    color: #4d8b55 !important;
+}

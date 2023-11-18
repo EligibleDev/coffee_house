@@ -2,11 +2,12 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import useUtils from "../../hooks/useUtils/useUtils";
 import { Link, NavLink } from "react-router-dom";
-import { Navbar } from "keep-react";
+import { Navbar, Tooltip } from "keep-react";
 import { FaBars } from "react-icons/fa6";
+import { MdLogin } from "react-icons/md";
 
 const HomeHeader = () => {
-    const [socials, iconClasses, headerLinks, navLinks] = useUtils();
+    const {socials, iconClasses, headerIcons, navLinks} = useUtils();
 
     return (
         <>
@@ -32,13 +33,21 @@ const HomeHeader = () => {
 
                     <div className="flex-1 hidden sm:flex justify-end items-center">
                         <div className="flex justify-between items-center gap-5">
-                            {headerLinks?.map(({ icon, link }, index) => (
-                                <Link key={index} to={link}>
-                                    {React.createElement(icon, {
-                                        className: iconClasses,
-                                    })}
+                            {/* {headerIcons?.map(({ icon, link, tooltip }, index) => (
+                                <Tooltip content={tooltip} style="light" key={index}>
+                                    <Link to={link}>
+                                        {React.createElement(icon, {
+                                            className: iconClasses,
+                                        })}
+                                    </Link>
+                                </Tooltip>
+                            ))} */}
+                                                        
+                            <Tooltip content="Login" style="light">
+                                <Link to="/auth">
+                                    <MdLogin className={iconClasses} />
                                 </Link>
-                            ))}
+                            </Tooltip>
                         </div>
                     </div>
 
