@@ -1,9 +1,13 @@
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
 import { Link } from "react-router-dom";
 import useUtils from "../../hooks/useUtils/useUtils";
+import useCaptcha from "../../hooks/useCaptcha/useCaptcha";
+import useAuth from "../../hooks/useAuth/useAuth";
 
 const Register = () => {
-    const { inputClasses, labelClasses } = useUtils();
+    const { inputClasses, labelClasses, buttonDisabled } = useUtils();
+    const { LoadCanvasTemplate, handleCaptcha } = useCaptcha();
+    const { register } = useAuth();
 
     const handleRegister = (event) => {
         event.preventDefault();
@@ -11,9 +15,10 @@ const Register = () => {
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        const user = { name, email, password };
 
-        console.log(user);
+        register(email, password)
+            .then((res) => res.json())
+            .then((data) => console.log(data));
     };
 
     return (
@@ -54,9 +59,30 @@ const Register = () => {
                         />
                         <label className={labelClasses}>Password</label>
                     </div>
+
+                    <div className="w-full min-w-[200px]">
+                        <LoadCanvasTemplate />
+                    </div>
+
+                    <div className="relative h-11 w-full min-w-[200px]">
+                        <input
+                            required
+                            onKeyUp={handleCaptcha}
+                            name="captcha"
+                            type="text"
+                            className={inputClasses}
+                            placeholder=" "
+                        />
+                        <label className={labelClasses}>Captcha</label>
+                    </div>
                 </div>
 
-                <PrimaryButton variant="green" extraClass="w-full" text="register" />
+                <PrimaryButton
+                    variant="green"
+                    extraClass="w-full"
+                    text="register"
+                    disabled={buttonDisabled}
+                />
                 <p className="text-lg font-jost mt-2">
                     Already have an account?{" "}
                     <Link to="/auth" className=" text-primary-green font-semibold">

@@ -15,7 +15,7 @@ const Banner = () => {
                 ></video>
                 <div className="bg-[#00000065] w-full h-full flex flex-col justify-center items-center z-10 absolute text-white ">
                     <div className="h-1/5 lg:h-1/3 xl:h-1/5"></div>
-                    <div className="text-center">
+                    <div className="flex flex-col items-center text-center">
                         <h1 className="text-5xl sm:text-6xl lg:text-[80px] leading-none font-bold w-full sm:w-2/3 mx-auto">
                             <span className="text-primary-green">Time to Discover </span>
                             Coffee House
