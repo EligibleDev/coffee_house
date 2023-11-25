@@ -17,8 +17,7 @@ const Register = () => {
         const password = event.target.password.value;
 
         register(email, password)
-            .then((res) => res.json())
-            .then((data) => console.log(data));
+            .then((res) => console.log(res.user));
     };
 
     return (
@@ -34,6 +33,7 @@ const Register = () => {
                 <div className="mb-4 flex flex-col gap-6">
                     <div className="relative h-11 w-full min-w-[200px]">
                         <input
+                            required
                             name="name"
                             type="text"
                             className={inputClasses}
@@ -43,6 +43,7 @@ const Register = () => {
                     </div>
                     <div className="relative h-11 w-full min-w-[200px]">
                         <input
+                            required
                             name="email"
                             type="email"
                             className={inputClasses}
@@ -52,6 +53,7 @@ const Register = () => {
                     </div>
                     <div className="relative h-11 w-full min-w-[200px]">
                         <input
+                            required
                             name="password"
                             type="password"
                             className={inputClasses}

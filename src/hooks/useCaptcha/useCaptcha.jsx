@@ -14,7 +14,6 @@ const useCaptcha = () => {
         const captcha = event.target.value;
         setButtonLoading(true);
 
-        console.log(captcha.length);
         if (captcha.length === 6) {
             if (validateCaptcha(captcha)) {
                 setButtonLoading(false);

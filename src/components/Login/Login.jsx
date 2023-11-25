@@ -16,8 +16,7 @@ const Login = () => {
         const password = event.target.password.value;
 
         login(email, password)
-            .then((res) => res.json)
-            .then((data) => console.log(data));
+            .then((res) => console.log(res.user));
     };
 
     return (
