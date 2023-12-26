@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import storageBg from "../../assets/storage-bg.jpg";
-import paperBg from "../../assets/paper-bg.png";
+import storageBg from "../../assets/images/storage-bg.jpg";
+import paperBg from "../../assets/images/paper-bg.png";
 
 const Auth = () => {
     return (

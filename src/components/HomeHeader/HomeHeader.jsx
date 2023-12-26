@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/images/logo.png";
 import useUtils from "../../hooks/useUtils/useUtils";
 import { Link, NavLink } from "react-router-dom";
 import { Navbar, Tooltip } from "keep-react";

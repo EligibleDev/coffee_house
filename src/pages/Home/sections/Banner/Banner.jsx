@@ -1,4 +1,4 @@
-import bannerVideo from "../../../../assets/banner-video.mp4";
+import bannerVideo from "../../../../assets/videos/banner-video.mp4";
 import PrimaryButton from "../../../../components/PrimaryButton/PrimaryButton";
 
 const Banner = () => {

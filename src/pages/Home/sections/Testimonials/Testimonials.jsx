@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { Parallax } from "react-parallax";
-import testimonialBg from "../../../../assets/testimonial-bg.jpg";
+import testimonialBg from "../../../../assets/images/testimonial-bg.jpg";
 import Title from "../../../../components/Title/Title";
 
 const Testimonials = () => {

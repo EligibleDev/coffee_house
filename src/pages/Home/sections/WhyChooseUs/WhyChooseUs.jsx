@@ -1,4 +1,4 @@
-import coffeeImage from "../../../../assets/coffee.png";
+import coffeeImage from "../../../../assets/images/coffee.png";
 import { GiCoffeeBeans } from "react-icons/gi";
 import IconBlock from "./IconBlock";
 

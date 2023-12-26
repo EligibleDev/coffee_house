@@ -1,6 +1,6 @@
 import { FaEnvelope, FaSquarePhone } from "react-icons/fa6";
 import PrimaryButton from "../../../../components/PrimaryButton/PrimaryButton";
-import introImage from "../../../../assets/intro-image.png";
+import introImage from "../../../../assets/images/intro-image.png";
 
 const Intro = () => {
     return (

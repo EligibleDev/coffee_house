@@ -4,6 +4,7 @@ import Carousel from "./sections/Carousel/Carousel";
 import Intro from "./sections/Intro/Intro";
 import Testimonials from "./sections/Testimonials/Testimonials";
 import WhyChooseUs from "./sections/WhyChooseUs/WhyChooseUs";
+import Products from "./sections/Products/Products";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner />
             <Intro />
             <Carousel />
+            <Products />
             <Testimonials />
             <WhyChooseUs />
         </>
