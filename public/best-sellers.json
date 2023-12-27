@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Cappuccino",
+        "shortDescription": "Coffee 50%, milk 50%, 280 ml",
+        "price": "3.25",
+        "category": "Coffee",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/02-1-100x100.png"
+    },
+    {
+        "name": "Latte XL",
+        "shortDescription": "Mix with Coffee 30%, milk 50%, Water 20%, 280 ml + foam",
+        "price": "4.25",
+        "category": "Coffee",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/03-1-100x100.png"
+    },
+    {
+        "name": "Flat White",
+        "shortDescription": "100% Natural Arabica or Robusta, 100 ml cup",
+        "price": "3.85",
+        "category": "Coffee",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/04-1-100x100.png"
+    },
+    {
+        "name": "Raw Coffee",
+        "shortDescription": "100% Natural Arabica or Robusta, 30 ml cup",
+        "price": "6.25",
+        "category": "Coffee",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/05-1-100x100.png"
+    },
+    {
+        "name": "Double Espresso",
+        "shortDescription": "Coffee 50%, milk 50%, 280 ml",
+        "price": "5.75",
+        "category": "Coffee",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/06-1-100x100.png"
+    },
+    {
+        "name": "Moccaccino",
+        "shortDescription": "Mix with Coffee 30%, milk 50%, Water 20%, 280 ml + foam",
+        "price": "9.25",
+        "category": "Tea",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/07-100x100.png"
+    },
+    {
+        "name": "Irish Tea",
+        "shortDescription": "100% Natural Arabica, Black Rum, 100 ml cup",
+        "price": "3.25",
+        "category": "Tea",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/08-100x100.png"
+    },
+    {
+        "name": "Americano Tea",
+        "shortDescription": "100% Natural Arabica or Robusta, 30 ml cup",
+        "price": "6.25",
+        "category": "Tea",
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/01-1-100x100.png"
+    }
+]

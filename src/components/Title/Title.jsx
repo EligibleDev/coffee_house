@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Title = ({ title, subTitle, className }) => {
     return (
-        <div className={`capitalize font-bold ${className || ""}`}>
+        <div className={`capitalize font-bold text-center ${className || ""}`}>
             <p className="text-primary-green">{subTitle}</p>
             <h2 className="text-4xl md:text-5xl">{title}</h2>
         </div>
