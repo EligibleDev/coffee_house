@@ -62,7 +62,7 @@ const UtilsProvider = ({ children }) => {
     const navLinks = [
         {
             label: "Home",
-            link: "/",
+            link: "/home",
         },
         {
             label: "Shop",
