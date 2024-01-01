@@ -1,16 +1,20 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Title from "../../../../components/Title/Title";
 import { Tabs } from "keep-react";
 import storageBG from "../../../../assets/images/storage-bg.jpg";
 import paperBG from "../../../../assets/images/paper-bg.png";
 
 const BestSellers = () => {
+    const [coffees, setCoffees] = useState([]);
+
     useEffect(() => {
         fetch("/best-sellers.json")
             .then((res) => res.json())
-            .then((data) => console.log(data))
+            .then((data) => setCoffees(data))
             .catch((error) => console.error(error));
     }, []);
+
+    console.log(coffees);
 
     const handleChangeCategory = (index) => {
         console.log(index);
