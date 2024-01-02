@@ -5,19 +5,20 @@ import storageBG from "../../../../assets/images/storage-bg.jpg";
 import paperBG from "../../../../assets/images/paper-bg.png";
 
 const BestSellers = () => {
-    const [coffees, setCoffees] = useState([]);
+    const [categoryIndex, setCategoryIndex] = useState(0);
 
-    useEffect(() => {
-        fetch("/best-sellers.json")
-            .then((res) => res.json())
-            .then((data) => setCoffees(data))
-            .catch((error) => console.error(error));
-    }, []);
+    // useEffect(() => {
+    //     fetch("/best-sellers.json")
+    //         .then((res) => res.json())
+    //         .then((data) => setCoffees(data))
+    //         .catch((error) => console.error(error));
+    // }, []);
 
-    console.log(coffees);
+    console.log(categoryIndex);
 
     const handleChangeCategory = (index) => {
         console.log(index);
+        setCategoryIndex(index);
     };
 
     return (
