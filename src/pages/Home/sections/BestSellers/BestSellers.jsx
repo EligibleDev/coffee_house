@@ -7,7 +7,7 @@ import paperBG from "../../../../assets/images/paper-bg.png";
 const BestSellers = () => {
     const [categoryIndex, setCategoryIndex] = useState(0);
 
-    console.log(categoryIndex);
+    // TODO: Fetch coffees based on the the index of category
 
     const handleChangeCategory = (index) => {
         setCategoryIndex(index);
