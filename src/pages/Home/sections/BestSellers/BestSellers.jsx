@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Title from "../../../../components/Title/Title";
 import { Tabs } from "keep-react";
 import storageBG from "../../../../assets/images/storage-bg.jpg";
