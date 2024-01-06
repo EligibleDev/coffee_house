@@ -46,11 +46,11 @@ const BestSellers = () => {
                         <Tabs.Item title="Tea" />
                         <Tabs.Item disabled title="Chocolate" />
                     </Tabs>
-                    <div className="w-7/12 overflow-auto space-y-4">
+                    <div className="w-11/12 sm:w-10/12 xl:w-7/12 overflow-auto space-y-4">
                         {coffees?.map((coffee) => (
                             <div
                                 key={coffee?._id}
-                                className="flex items-center justify-between gap-8 pr-4"
+                                className="flex items-center justify-between gap-4 sm:gap-8 pr-4"
                             >
                                 <Link className="" to={`/drink/${coffee?._id}`}>
                                     <img
@@ -68,7 +68,7 @@ const BestSellers = () => {
                                         >
                                             {coffee?.name}
                                         </Link>
-                                        <hr className="border-2 border-dashed border-secondary-black/50 flex-1" />
+                                        <hr className=" border 2xl:border-2 border-dashed border-secondary-black/50 flex-1" />
                                         <h5 className="text-primary-green font-bold text-lg">
                                             ${coffee?.price}
                                         </h5>
