@@ -4,6 +4,7 @@ import { Tabs } from "keep-react";
 import storageBG from "../../../../assets/images/storage-bg.jpg";
 import paperBG from "../../../../assets/images/paper-bg.png";
 import { Link } from "react-router-dom";
+import PrimaryButton from "../../../../components/PrimaryButton/PrimaryButton";
 
 const BestSellers = () => {
     const [categoryIndex, setCategoryIndex] = useState(0);
@@ -31,7 +32,7 @@ const BestSellers = () => {
                 />
                 <div
                     style={{ backgroundImage: `url('${paperBG}')` }}
-                    className="bg-contain bg-no-repeat h-[1120px] w-11/12 mx-auto bg-center py-40 text-center flex flex-col items-center"
+                    className="bg-auto xl:bg-contain bg-no-repeat h-[1120px] w-11/12 mx-auto bg-center py-40 text-center flex flex-col items-center"
                 >
                     <Tabs
                         aria-label="Tabs"
@@ -80,6 +81,13 @@ const BestSellers = () => {
                             </div>
                         ))}
                     </div>
+
+                    <PrimaryButton
+                        text="See All Products"
+                        variant="green"
+                        link="/drinks"
+                        extraClass="mt-14"
+                    />
                 </div>
             </div>
         </section>
