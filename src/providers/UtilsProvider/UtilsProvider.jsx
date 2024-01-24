@@ -65,8 +65,8 @@ const UtilsProvider = ({ children }) => {
             link: "/home",
         },
         {
-            label: "Shop",
-            link: "/shop",
+            label: "Drinks",
+            link: "/drinks",
         },
     ];
 
