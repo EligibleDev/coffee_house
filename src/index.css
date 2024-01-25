@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary-green: #4d8b55;
+    --secondary-black: #151515;
+}
+
 html {
     font-family: "Jost", sans-serif;
     font-family: "Poppins", sans-serif;
@@ -17,4 +22,8 @@ html {
 .swiper-button-next,
 .swiper-button-prev {
     color: #4d8b55 !important;
+}
+
+.headroom.headroom--pinned {
+    background: var(--secondary-black);
 }

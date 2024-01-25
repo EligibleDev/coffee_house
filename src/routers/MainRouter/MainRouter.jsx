@@ -5,7 +5,7 @@ import HomeLayout from "../../layouts/HomeLayout/HomeLayout";
 import Auth from "../../pages/Auth/Auth";
 import Login from "../../components/Login/Login";
 import Register from "../../components/Register/Register";
-import Shop from "../../pages/Shop/Shop";
+import Drinks from "../../pages/Drinks/Drinks";
 
 const MainRouter = createBrowserRouter([
     {
@@ -27,8 +27,8 @@ const MainRouter = createBrowserRouter([
                 element: <Navigate to="/home" replace />,
             },
             {
-                path: "/shop",
-                element: <Shop />,
+                path: "/drinks",
+                element: <Drinks />,
             },
         ],
     },

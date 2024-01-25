@@ -66,18 +66,61 @@ const HomeHeader = () => {
                             className="fixed right-0 top-0 bg-white p-10 !w-full"
                         >
                             <Navbar.Container
-                                tag="ul"
-                                className="flex flex-col gap-5 text-secondary-black"
+                                tag="nav"
+                                className="flex flex-col justify-between h-full text-secondary-black"
                             >
-                                {navLinks?.map((item) => (
-                                    <NavLink
-                                        className="text-sm font-bold "
-                                        key={item?.link}
-                                        to={item?.link}
-                                    >
-                                        {item?.label}
-                                    </NavLink>
-                                ))}
+                                <ul className="flex flex-col gap-5">
+                                    {navLinks?.map((item) => (
+                                        <NavLink
+                                            className="text-sm font-bold "
+                                            key={item?.link}
+                                            to={item?.link}
+                                        >
+                                            {item?.label}
+                                        </NavLink>
+                                    ))}
+                                </ul>
+
+                                <div className="flex items-center gap-5 pb-10">
+                                    {headerIcons?.map(
+                                        ({ icon, link, tooltip }, index) => (
+                                            <Tooltip
+                                                content={tooltip}
+                                                style="light"
+                                                key={index}
+                                            >
+                                                <Link to={link}>
+                                                    {React.createElement(icon, {
+                                                        className: iconClasses,
+                                                    })}
+                                                </Link>
+                                            </Tooltip>
+                                        )
+                                    )}
+                                    {/* {user ? (
+                                        headerIcons?.map(
+                                            ({ icon, link, tooltip }, index) => (
+                                                <Tooltip
+                                                    content={tooltip}
+                                                    style="light"
+                                                    key={index}
+                                                >
+                                                    <Link to={link}>
+                                                        {React.createElement(icon, {
+                                                            className: iconClasses,
+                                                        })}
+                                                    </Link>
+                                                </Tooltip>
+                                            )
+                                        )
+                                    ) : (
+                                        <Tooltip content="Login" style="light">
+                                            <Link to="/auth">
+                                                <MdLogin className={iconClasses} />
+                                            </Link>
+                                        </Tooltip>
+                                    )} */}
+                                </div>
                             </Navbar.Container>
                         </Navbar.Collapse>
                     </Navbar>
