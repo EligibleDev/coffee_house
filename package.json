@@ -13,7 +13,7 @@
     "dependencies": {
         "@tanstack/react-query": "^5.17.1",
         "axios": "^1.6.3",
-        "firebase": "^10.6.0",
+        "firebase": "^10.7.2",
         "keep-react": "^1.0.1",
         "localforage": "^1.10.0",
         "match-sorter": "^6.3.1",
