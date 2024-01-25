@@ -38,7 +38,7 @@ const Intro = () => {
 
                     <div className="flex gap-2 lg:gap-5">
                         <PrimaryButton text="read more" link="/" variant="black" />
-                        <PrimaryButton text="buy now" link="/shop" variant="green" />
+                        <PrimaryButton text="buy now" link="/drinks" variant="green" />
                     </div>
                 </div>
 

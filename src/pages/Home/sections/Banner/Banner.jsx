@@ -25,7 +25,7 @@ const Banner = () => {
                             where every sip tells a story, and every bite is a moment of
                             pure indulgence
                         </p>
-                        <PrimaryButton text="Buy now" link="/shop" extraClass="mx-auto" />
+                        <PrimaryButton text="Buy now" link="/drinks" extraClass="mx-auto" />
                     </div>
                 </div>
             </div>
