@@ -40,7 +40,7 @@ const PageCover = ({ title, subTitle }) => {
     );
 };
 PageCover.propTypes = {
-    title: PropTypes.string,
+    title: PropTypes.string.isRequired,
     subTitle: PropTypes.string,
 };
 export default PageCover;
