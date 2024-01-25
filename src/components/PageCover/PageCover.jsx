@@ -2,16 +2,20 @@ import headerBG from "../../assets/images/inner_header.jpg";
 import PropTypes from "prop-types";
 import useUtils from "../../hooks/useUtils/useUtils";
 import React from "react";
+import { Parallax } from "react-parallax";
 
 const PageCover = ({ title, subTitle }) => {
     const { socials, iconClasses } = useUtils();
 
     return (
-        <header
-            style={{ backgroundImage: `url(${headerBG})` }}
-            className="bg-cover bg-top bg-no-repeat"
+        <Parallax
+            bgClassName=""
+            bgImage={headerBG}
+            className="bg-cover bg-top bg-no-repeat -mt-32"
+            bgImageAlt={title}
+            strength={300}
         >
-            <div className="bg-[#000000]/60 h-full w-full flex justify-center items-center pb-20 sm:pb-44 pt-52 sm:pt-64 -mt-32">
+            <div className="bg-[#000000]/60 h-full w-full flex justify-center items-center pb-20 sm:pb-44 pt-52 sm:pt-64">
                 <h1 className="text-4xl sm:text-5xl font-bold text-white">{title}</h1>
 
                 <p className="absolute left-0 hidden sm:block font-jost font-medium text-white -rotate-90">
@@ -32,7 +36,7 @@ const PageCover = ({ title, subTitle }) => {
                     </div>
                 </div>
             </div>
-        </header>
+        </Parallax>
     );
 };
 PageCover.propTypes = {
