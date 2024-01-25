@@ -3,6 +3,7 @@ import searchBG from "../../../../assets/images/sidebar-background.png";
 
 const SearchBox = () => {
     const handleSearch = (event) => {
+        // TODO: react debounce
         event.preventDefault();
 
         const data = event.target.data.value;
