@@ -7,7 +7,7 @@ const CategoryQuery = () => {
     const [category, setCategory] = useState("");
 
     useEffect(() => {
-        fetch(`/categories.json?category=${category}`)
+        fetch(`/categories.json`)
             .then((res) => res.json())
             .then((data) => setCategories(data));
     }, []);

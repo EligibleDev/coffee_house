@@ -15,6 +15,8 @@ const UtilsProvider = ({ children }) => {
     const [buttonLoading, setButtonLoading] = useState(false);
     const [buttonDisabled, setButtonDisabled] = useState(true);
 
+    const maxDrinkPrice = 15000;
+
     const socials = [
         {
             icon: FaFacebookF,
@@ -87,6 +89,7 @@ const UtilsProvider = ({ children }) => {
         setButtonLoading,
         buttonDisabled,
         setButtonDisabled,
+        maxDrinkPrice,
     };
 
     return (
