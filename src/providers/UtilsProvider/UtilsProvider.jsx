@@ -17,6 +17,24 @@ const UtilsProvider = ({ children }) => {
 
     const maxDrinkPrice = 15000;
 
+    const sortingMethods = [
+        {
+            method: "Sort by Default",
+        },
+        {
+            method: "Sort by Popularity",
+        },
+        {
+            method: "Sort by Latest",
+        },
+        {
+            method: "Sort by Price: Low to High",
+        },
+        {
+            method: "Sort by Price: High to Low",
+        },
+    ];
+
     const socials = [
         {
             icon: FaFacebookF,
@@ -90,6 +108,7 @@ const UtilsProvider = ({ children }) => {
         buttonDisabled,
         setButtonDisabled,
         maxDrinkPrice,
+        sortingMethods,
     };
 
     return (

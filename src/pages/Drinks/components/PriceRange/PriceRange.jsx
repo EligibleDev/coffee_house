@@ -12,10 +12,11 @@ const PriceRange = () => {
         <div>
             <QueryTitle>Filter by price</QueryTitle>
             <Slider
+                range
                 min={0}
-                max={maxDrinkPrice}
                 step={500}
-                defaultValue={maxDrinkPrice}
+                max={maxDrinkPrice}
+                defaultValue={[0, maxDrinkPrice]}
                 onChange={(value) => setRange(value)}
             />
         </div>
