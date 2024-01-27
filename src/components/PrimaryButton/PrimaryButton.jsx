@@ -6,7 +6,7 @@ import ButtonLoader from "../ButtonLoader/ButtonLoader";
 const PrimaryButton = ({ text, variant, link, func, extraClass, disabled }) => {
     const { buttonLoading } = useUtils();
 
-    const baseClasses = `relative w-fit flex justify-center items-center overflow-hidden px-5 lg:py-[25.25px] py-[17.5px] text-sm font-bold capitalize rounded-full cursor-pointer before:content-[''] before:absolute before:w-full before:h-full before:translate-x-0 before:translate-y-72 hover:before:translate-y-0 before:transition-all before:duration-500 text-white disabled:text-red-500 ${
+    const baseClasses = `relative w-fit flex justify-center items-center overflow-hidden px-2 lg:py-[25.25px] py-4 text-sm font-bold capitalize rounded-full cursor-pointer before:content-[''] before:absolute before:w-full before:h-full before:translate-x-0 before:translate-y-72 hover:before:translate-y-0 before:transition-all before:duration-500 text-white disabled:text-red-500 ${
         extraClass || ""
     }`;
 

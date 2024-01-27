@@ -74,7 +74,7 @@ const Header = () => {
                         <Navbar className="block xl:hidden text-white bg-transparent p-0">
                             <Navbar.Toggle
                                 openIcon={<FaBars size={30} />}
-                                className="block"
+                                // className="block"
                             ></Navbar.Toggle>
 
                             <Navbar.Collapse

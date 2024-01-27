@@ -1,0 +1,11 @@
+.rc-slider-handle:hover {
+    border-color: var(--primary-green) !important;
+}
+
+.rc-slider-track {
+    background-color: var(--primary-green);
+}
+
+.rc-slider-handle {
+    border-color: var(--primary-green);
+}
