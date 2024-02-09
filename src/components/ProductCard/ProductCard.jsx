@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
 
             <div className="lower-part h-2/6 w-full relative">
                 <div className="lower-part-face text-primary-green"> {product?._id}</div>
-                <div className="lower-part-back">cart</div>
+                <div className="lower--part-back">cart</div>
             </div>
         </figure>
     );
