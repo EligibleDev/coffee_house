@@ -46,7 +46,7 @@ const BestSellers = () => {
                         <Tabs.Item title="Tea" />
                         <Tabs.Item disabled title="Chocolate" />
                     </Tabs>
-                    <div className="w-11/12 sm:w-10/12 xl:w-7/12 overflow-auto space-y-4">
+                    <div className="w-11/12 sm:w-10/12 xl:w-7/12 2xl:w-[720px] overflow-auto space-y-4">
                         {coffees?.map((coffee) => (
                             <div
                                 key={coffee?._id}
