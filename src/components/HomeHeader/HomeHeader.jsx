@@ -20,11 +20,11 @@ const HomeHeader = () => {
                         <hr className="w-4" />
                         <div className="flex justify-between items-center gap-2">
                             {socials?.map((item, index) => (
-                                <Link to={item?.link} key={index}>
+                                <a href={item?.link} key={index}>
                                     {React.createElement(item?.icon, {
                                         className: iconClasses,
                                     })}
-                                </Link>
+                                </a>
                             ))}
                         </div>
                     </div>
