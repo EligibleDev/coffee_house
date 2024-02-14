@@ -5,7 +5,8 @@
         "shortDescription": "Coffee 50%, milk 50%, 280 ml",
         "price": "3.25",
         "category": "Coffee",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/02-1-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/02-1-100x100.png",
+        "image": "https://kaffen.bslthemes.com/wp-content/uploads/2022/03/menu1.jpg"
     },
     {
         "_id": 2,
@@ -13,7 +14,8 @@
         "shortDescription": "Mix with Coffee 30%, milk 50%, Water 20%, 280 ml + foam",
         "price": "4.25",
         "category": "Coffee",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/03-1-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/03-1-100x100.png",
+        "image": "https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg"
     },
     {
         "_id": 3,
@@ -21,7 +23,8 @@
         "shortDescription": "100% Natural Arabica or Robusta, 100 ml cup",
         "price": "3.85",
         "category": "Coffee",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/04-1-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/04-1-100x100.png",
+        "image": "https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg"
     },
     {
         "_id": 4,
@@ -29,7 +32,8 @@
         "shortDescription": "100% Natural Arabica or Robusta, 30 ml cup",
         "price": "6.25",
         "category": "Coffee",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/05-1-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/05-1-100x100.png",
+        "image": "https://img.freepik.com/free-photo/high-angle-shot-cup-cappuccino-wooden-surface_181624-24674.jpg"
     },
     {
         "_id": 5,
@@ -37,7 +41,8 @@
         "shortDescription": "Coffee 50%, milk 50%, 280 ml",
         "price": "5.75",
         "category": "Coffee",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/06-1-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/06-1-100x100.png",
+        "image": "https://img.freepik.com/free-photo/close-up-spoon-cup-coffee_1232-411.jpg"
     },
     {
         "_id": 6,
@@ -45,7 +50,8 @@
         "shortDescription": "Mix with Coffee 30%, milk 50%, Water 20%, 280 ml + foam",
         "price": "9.25",
         "category": "Tea",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/07-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/07-100x100.png",
+        "image": "https://img.freepik.com/free-photo/vintage-hot-coffee-cup-with-nice-latte-art-decoration-old-wooden-texture-table_1150-6312.jpg"
     },
     {
         "_id": 7,
@@ -53,7 +59,8 @@
         "shortDescription": "100% Natural Arabica, Black Rum, 100 ml cup",
         "price": "3.25",
         "category": "Tea",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/08-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/08-100x100.png",
+        "image": "https://img.freepik.com/premium-photo/cappuccino-coffee-with-pair-crackers-isolated-wooden-table_76000-3833.jpg"
     },
     {
         "_id": 8,
@@ -61,6 +68,7 @@
         "shortDescription": "100% Natural Arabica or Robusta, 30 ml cup",
         "price": "6.25",
         "category": "Tea",
-        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/01-1-100x100.png"
+        "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/01-1-100x100.png",
+        "image": "https://img.freepik.com/premium-photo/cup-cappuccino-coffee-with-biscuits-served-wooden-table-garden_76000-7457.jpg"
     }
 ]
