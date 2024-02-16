@@ -9,11 +9,17 @@ import { MdLogin } from "react-icons/md";
 import React from "react";
 
 const Header = () => {
-    const { navLinks, headerIcons, iconClasses } = useUtils();
+    const {
+        navLinks,
+        headerIcons,
+        iconClasses,
+        liftSidebarPosition,
+        lowerSidebarPosition,
+    } = useUtils();
     const { user } = useAuth();
 
     return (
-        <Headroom>
+        <Headroom onUnpin={lowerSidebarPosition} onPin={liftSidebarPosition}>
             <header className="bg-[#000000]/70">
                 <div className="container mx-auto flex justify-between items-center py-3 px-8 xl:px-0">
                     <Link to="/home">

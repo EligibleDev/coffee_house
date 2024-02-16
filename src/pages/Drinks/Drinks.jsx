@@ -22,7 +22,7 @@ const Drinks = () => {
                 <div className="w-3/4 space-y-8">
                     <SortBar />
 
-                    <section className="grid grid-cols-3 gap-24">
+                    <section className="grid grid-cols-1 gap-12">
                         {products?.map((product) => (
                             <ProductCard product={product} key={product?._id} />
                         ))}

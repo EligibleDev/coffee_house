@@ -4,7 +4,7 @@ import SearchBox from "../SearchBox/SearchBox";
 
 const Sidebar = () => {
     return (
-        <aside className="w-1/4 space-y-14">
+        <aside id="product-sidebar" className="sticky top-8 transition-all w-1/4 h-fit space-y-14">
             <SearchBox />
             <CategoryQuery />
             <PriceRange />

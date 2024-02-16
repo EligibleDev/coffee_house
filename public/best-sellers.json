@@ -6,7 +6,8 @@
         "price": "3.25",
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/02-1-100x100.png",
-        "image": "https://kaffen.bslthemes.com/wp-content/uploads/2022/03/menu1.jpg"
+        "image": "https://kaffen.bslthemes.com/wp-content/uploads/2022/03/menu1.jpg",
+        "rating": 5
     },
     {
         "_id": 2,
@@ -15,7 +16,8 @@
         "price": "4.25",
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/03-1-100x100.png",
-        "image": "https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg"
+        "image": "https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg",
+        "rating": 4
     },
     {
         "_id": 3,
@@ -24,7 +26,8 @@
         "price": "3.85",
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/04-1-100x100.png",
-        "image": "https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg"
+        "image": "https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg",
+        "rating": 3
     },
     {
         "_id": 4,
@@ -33,7 +36,8 @@
         "price": "6.25",
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/05-1-100x100.png",
-        "image": "https://img.freepik.com/free-photo/high-angle-shot-cup-cappuccino-wooden-surface_181624-24674.jpg"
+        "image": "https://img.freepik.com/free-photo/high-angle-shot-cup-cappuccino-wooden-surface_181624-24674.jpg",
+        "rating": 5
     },
     {
         "_id": 5,
@@ -42,7 +46,8 @@
         "price": "5.75",
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/06-1-100x100.png",
-        "image": "https://img.freepik.com/free-photo/close-up-spoon-cup-coffee_1232-411.jpg"
+        "image": "https://img.freepik.com/free-photo/close-up-spoon-cup-coffee_1232-411.jpg",
+        "rating": 5
     },
     {
         "_id": 6,
@@ -51,7 +56,8 @@
         "price": "9.25",
         "category": "Tea",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/07-100x100.png",
-        "image": "https://img.freepik.com/free-photo/vintage-hot-coffee-cup-with-nice-latte-art-decoration-old-wooden-texture-table_1150-6312.jpg"
+        "image": "https://img.freepik.com/free-photo/vintage-hot-coffee-cup-with-nice-latte-art-decoration-old-wooden-texture-table_1150-6312.jpg",
+        "rating": 4
     },
     {
         "_id": 7,
@@ -60,7 +66,8 @@
         "price": "3.25",
         "category": "Tea",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/08-100x100.png",
-        "image": "https://img.freepik.com/premium-photo/cappuccino-coffee-with-pair-crackers-isolated-wooden-table_76000-3833.jpg"
+        "image": "https://img.freepik.com/premium-photo/cappuccino-coffee-with-pair-crackers-isolated-wooden-table_76000-3833.jpg",
+        "rating": 2
     },
     {
         "_id": 8,
@@ -69,6 +76,7 @@
         "price": "6.25",
         "category": "Tea",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/01-1-100x100.png",
-        "image": "https://img.freepik.com/premium-photo/cup-cappuccino-coffee-with-biscuits-served-wooden-table-garden_76000-7457.jpg"
+        "image": "https://img.freepik.com/premium-photo/cup-cappuccino-coffee-with-biscuits-served-wooden-table-garden_76000-7457.jpg",
+        "rating": 5
     }
 ]
