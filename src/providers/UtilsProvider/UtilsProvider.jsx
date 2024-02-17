@@ -14,6 +14,7 @@ export const UtilsContext = createContext();
 const UtilsProvider = ({ children }) => {
     const [buttonLoading, setButtonLoading] = useState(false);
     const [buttonDisabled, setButtonDisabled] = useState(true);
+    const [showPreviewModal, setShowPreviewModal] = useState(false);
 
     const maxDrinkPrice = 15000;
 
@@ -126,6 +127,8 @@ const UtilsProvider = ({ children }) => {
         liftSidebarPosition,
         lowerSidebarPosition,
         addToCart,
+        showPreviewModal,
+        setShowPreviewModal,
     };
 
     return (

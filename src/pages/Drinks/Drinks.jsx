@@ -3,9 +3,13 @@ import PageCover from "../../components/PageCover/PageCover";
 import Sidebar from "./components/Sidebar/Sidebar";
 import SortBar from "./components/SortBar/SortBar";
 import ProductCard from "../../components/ProductCard/ProductCard";
+import { Modal } from "keep-react";
+import useUtils from "../../hooks/useUtils/useUtils";
 
 const Drinks = () => {
     const [products, setProducts] = useState([]);
+    const { showPreviewModal, setShowPreviewModal } = useUtils();
+    const [productForPreview, setProductForPreview] = useState({});
 
     useEffect(() => {
         fetch("/best-sellers.json")
@@ -13,6 +17,14 @@ const Drinks = () => {
             .then((data) => setProducts(data))
             .catch((error) => console.error(error));
     }, []);
+
+    useEffect(() => {
+        const productForPreview = products.find(
+            (product) => showPreviewModal === product?._id
+        );
+
+        setProductForPreview(productForPreview);
+    }, [showPreviewModal, products]);
 
     return (
         <>
@@ -29,6 +41,14 @@ const Drinks = () => {
                     </section>
                 </div>
             </div>
+
+            <Modal
+                size="5xl"
+                show={showPreviewModal}
+                onClose={() => setShowPreviewModal(false)}
+            >
+                <Modal.Header>{productForPreview?.name}</Modal.Header>
+            </Modal>
         </>
     );
 };

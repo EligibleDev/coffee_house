@@ -6,16 +6,12 @@ import { FaCartPlus, FaEye, FaFileInvoice } from "react-icons/fa6";
 import useUtils from "../../hooks/useUtils/useUtils";
 
 const ProductCard = ({ product }) => {
-    const { addToCart } = useUtils();
+    const { addToCart, setShowPreviewModal } = useUtils();
 
     const stars = [];
     for (let i = 0; i < product.rating; i++) {
         stars.push(<Rating.Star className="mr-0 rating" filledType="fill" key={i} />);
     }
-
-    const previewProduct = (_id) => {
-        console.log(`preview product: ${_id}`);
-    };
 
     return (
         <div className="card rounded-full border border-dashed border-primary-green h-80 flex flex-col justify-between">
@@ -32,7 +28,7 @@ const ProductCard = ({ product }) => {
                     <p className="font-medium">{product.name}</p>
                     <Rating className="gap-1">{stars}</Rating>
                     <p>
-                        ৳ <b>{product.price}</b>
+                        ৳ <b className="font-jost">{product.price}</b>
                     </p>
                 </div>
                 <div className="lower-part-back w-full h-full flex gap-2 items-center justify-center bg-white rounded-t-full">
@@ -44,7 +40,7 @@ const ProductCard = ({ product }) => {
 
                     <IconButton
                         tooltip="Preview"
-                        onClick={() => previewProduct(product._id)}
+                        onClick={() => setShowPreviewModal(product._id)}
                         icon={FaEye}
                     />
 
