@@ -1,17 +1,24 @@
 import PropTypes from "prop-types";
 import "./card.css";
 import { Rating } from "keep-react";
+import IconButton from "../IconButton/IconButton";
+import { FaCartPlus, FaEye, FaFileInvoice } from "react-icons/fa6";
+import useUtils from "../../hooks/useUtils/useUtils";
 
 const ProductCard = ({ product }) => {
+    const { addToCart } = useUtils();
+
     const stars = [];
     for (let i = 0; i < product.rating; i++) {
-        stars.push(
-            <Rating.Star size={20} className="mr-0 rating" filledType="fill" key={i} />
-        );
+        stars.push(<Rating.Star className="mr-0 rating" filledType="fill" key={i} />);
     }
 
+    const previewProduct = (_id) => {
+        console.log(`preview product: ${_id}`);
+    };
+
     return (
-        <div className="card rounded-full border border-primary-green h-80 flex flex-col justify-between">
+        <div className="card rounded-full border border-dashed border-primary-green h-80 flex flex-col justify-between">
             <div className="flex-1 flex items-center">
                 <img
                     className="w-36 mx-auto"
@@ -23,13 +30,29 @@ const ProductCard = ({ product }) => {
             <div className="lower-part w-full">
                 <div className="lower-part-face w-full h-full flex flex-col items-center justify-center gap-1 bg-primary-green rounded-b-full">
                     <p className="font-medium">{product.name}</p>
-                    <Rating>{stars}</Rating>
+                    <Rating className="gap-1">{stars}</Rating>
                     <p>
                         ৳ <b>{product.price}</b>
                     </p>
                 </div>
-                <div className="lower-part-back w-full h-full flex flex-col items-center justify-center bg-white rounded-t-full">
-                    {product._id}
+                <div className="lower-part-back w-full h-full flex gap-2 items-center justify-center bg-white rounded-t-full">
+                    <IconButton
+                        tooltip="Add to Cart"
+                        onClick={() => addToCart(product._id)}
+                        icon={FaCartPlus}
+                    />
+
+                    <IconButton
+                        tooltip="Preview"
+                        onClick={() => previewProduct(product._id)}
+                        icon={FaEye}
+                    />
+
+                    <IconButton
+                        tooltip="Details"
+                        link={`/product/${product._id}`}
+                        icon={FaFileInvoice}
+                    />
                 </div>
             </div>
         </div>

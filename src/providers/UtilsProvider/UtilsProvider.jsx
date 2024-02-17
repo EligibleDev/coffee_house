@@ -106,6 +106,10 @@ const UtilsProvider = ({ children }) => {
         productSidebar && productSidebar.classList.remove("!top-36");
     };
 
+    const addToCart = (_id) => {
+        console.log(`product with id: ${_id} added to cart`);
+    };
+
     const valuesOfUtilities = {
         socials,
         iconClasses,
@@ -121,6 +125,7 @@ const UtilsProvider = ({ children }) => {
         sortingMethods,
         liftSidebarPosition,
         lowerSidebarPosition,
+        addToCart,
     };
 
     return (

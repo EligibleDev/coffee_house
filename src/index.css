@@ -27,7 +27,3 @@ html {
 .headroom.headroom--pinned {
     background: var(--secondary-black);
 }
-
-.rating svg {
-    fill: var(--secondary-black);
-}
