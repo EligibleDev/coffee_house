@@ -98,16 +98,12 @@ const UtilsProvider = ({ children }) => {
 
     const liftSidebarPosition = () => {
         const productSidebar = document.getElementById("product-sidebar");
-        if (productSidebar) {
-            return productSidebar.classList.add("top-36");
-        }
+        productSidebar && productSidebar.classList.add("!top-36");
     };
 
     const lowerSidebarPosition = () => {
         const productSidebar = document.getElementById("product-sidebar");
-        if (productSidebar) {
-            return productSidebar.classList.remove("top-36");
-        }
+        productSidebar && productSidebar.classList.remove("!top-36");
     };
 
     const valuesOfUtilities = {

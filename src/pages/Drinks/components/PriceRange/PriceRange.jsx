@@ -8,6 +8,7 @@ const PriceRange = () => {
     const { maxDrinkPrice } = useUtils();
     const [range, setRange] = useState(maxDrinkPrice);
 
+
     return (
         <div>
             <QueryTitle>Filter by price</QueryTitle>
