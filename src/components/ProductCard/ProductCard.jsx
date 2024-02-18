@@ -9,13 +9,20 @@ const ProductCard = ({ product }) => {
     const { addToCart, setShowPreviewModal } = useUtils();
 
     //rating configuration start
+    const productRating = Math.ceil(
+        product?.reviews.reduce((previous, current) => previous + current.rating, 0) /
+            product?.reviews?.length
+    );
+
+    console.log(productRating);
+
     const stars = [];
-    for (let i = 0; i < product.rating; i++) {
+    for (let i = 0; i < productRating; i++) {
         stars.push(<Rating.Star className="mr-0 rating" filledType="fill" key={i} />);
     }
 
     const emptyStars = [];
-    for (let i = 0; i < 5 - product.rating; i++) {
+    for (let i = 0; i < 5 - productRating; i++) {
         emptyStars.push(<Rating.Star className="mr-0 empty-rating" key={i} />);
     }
     //rating configuration end

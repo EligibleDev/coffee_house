@@ -7,21 +7,21 @@
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/02-1-100x100.png",
         "image": "https://kaffen.bslthemes.com/wp-content/uploads/2022/03/menu1.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             },
             {
                 "userID": "1812223",
@@ -31,12 +31,12 @@
             {
                 "userID": "1172223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 3
             },
             {
                 "userID": "1126223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             }
         ],
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque, id voluptatem quam enim incidunt optio vel quasi aperiam iure officia dolorum, dignissimos dolorem esse natus culpa ipsa nihil. Rem ut illo magni debitis consequuntur dolore officiis delectus dignissimos fugiat inventore et soluta sunt nihil ducimus ullam, odit, explicabo voluptates, animi porro minus aliquid necessitatibus cum. Tenetur, quidem officiis quibusdam cupiditate exercitationem eius odio id ratione natus aliquid molestias maxime illum praesentium cum voluptates iure rem culpa illo nobis tempore vel beatae. Maxime quidem aliquam accusamus amet autem quaerat facilis corporis minima, ea voluptatibus animi cumque labore facere voluptate quam? Pariatur, ratione perspiciatis. Ab a eos, molestiae, inventore id incidunt ad, reiciendis ipsa tempore nisi corporis vel animi praesentium. Cumque, labore. Harum dolorum eaque deserunt debitis facilis assumenda dolore, error distinctio iste aliquam eius velit tenetur excepturi, adipisci impedit delectus ducimus provident animi voluptas, possimus laudantium. Cum numquam quo nobis?"
@@ -49,36 +49,36 @@
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/03-1-100x100.png",
         "image": "https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "1812223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 3
             },
             {
                 "userID": "1172223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             },
             {
                 "userID": "1126223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             }
         ],
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque, id voluptatem quam enim incidunt optio vel quasi aperiam iure officia dolorum, dignissimos dolorem esse natus culpa ipsa nihil. Rem ut illo magni debitis consequuntur dolore officiis delectus dignissimos fugiat inventore et soluta sunt nihil ducimus ullam, odit, explicabo voluptates, animi porro minus aliquid necessitatibus cum. Tenetur, quidem officiis quibusdam cupiditate exercitationem eius odio id ratione natus aliquid molestias maxime illum praesentium cum voluptates iure rem culpa illo nobis tempore vel beatae. Maxime quidem aliquam accusamus amet autem quaerat facilis corporis minima, ea voluptatibus animi cumque labore facere voluptate quam? Pariatur, ratione perspiciatis. Ab a eos, molestiae, inventore id incidunt ad, reiciendis ipsa tempore nisi corporis vel animi praesentium. Cumque, labore. Harum dolorum eaque deserunt debitis facilis assumenda dolore, error distinctio iste aliquam eius velit tenetur excepturi, adipisci impedit delectus ducimus provident animi voluptas, possimus laudantium. Cum numquam quo nobis?"
@@ -91,36 +91,36 @@
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/04-1-100x100.png",
         "image": "https://img.freepik.com/free-photo/close-up-coffee-cup-wooden-table-steam-rising-generative-ai_188544-8921.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             },
             {
                 "userID": "1812223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 3
             },
             {
                 "userID": "1172223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             },
             {
                 "userID": "1126223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             }
         ],
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque, id voluptatem quam enim incidunt optio vel quasi aperiam iure officia dolorum, dignissimos dolorem esse natus culpa ipsa nihil. Rem ut illo magni debitis consequuntur dolore officiis delectus dignissimos fugiat inventore et soluta sunt nihil ducimus ullam, odit, explicabo voluptates, animi porro minus aliquid necessitatibus cum. Tenetur, quidem officiis quibusdam cupiditate exercitationem eius odio id ratione natus aliquid molestias maxime illum praesentium cum voluptates iure rem culpa illo nobis tempore vel beatae. Maxime quidem aliquam accusamus amet autem quaerat facilis corporis minima, ea voluptatibus animi cumque labore facere voluptate quam? Pariatur, ratione perspiciatis. Ab a eos, molestiae, inventore id incidunt ad, reiciendis ipsa tempore nisi corporis vel animi praesentium. Cumque, labore. Harum dolorum eaque deserunt debitis facilis assumenda dolore, error distinctio iste aliquam eius velit tenetur excepturi, adipisci impedit delectus ducimus provident animi voluptas, possimus laudantium. Cum numquam quo nobis?"
@@ -133,11 +133,11 @@
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/05-1-100x100.png",
         "image": "https://img.freepik.com/free-photo/high-angle-shot-cup-cappuccino-wooden-surface_181624-24674.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "12223",
@@ -152,12 +152,12 @@
             {
                 "userID": "1812223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 3
             },
             {
                 "userID": "1172223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "1126223",
@@ -175,16 +175,16 @@
         "category": "Coffee",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/06-1-100x100.png",
         "image": "https://img.freepik.com/free-photo/close-up-spoon-cup-coffee_1232-411.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 3
             },
             {
                 "userID": "12223",
@@ -194,12 +194,12 @@
             {
                 "userID": "1812223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "1172223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "1126223",
@@ -217,7 +217,7 @@
         "category": "Tea",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/07-100x100.png",
         "image": "https://img.freepik.com/free-photo/vintage-hot-coffee-cup-with-nice-latte-art-decoration-old-wooden-texture-table_1150-6312.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
@@ -259,36 +259,36 @@
         "category": "Tea",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/08-100x100.png",
         "image": "https://img.freepik.com/premium-photo/cappuccino-coffee-with-pair-crackers-isolated-wooden-table_76000-3833.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             },
             {
                 "userID": "12223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 1
             },
             {
                 "userID": "1812223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 3
             },
             {
                 "userID": "1172223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 4
             },
             {
                 "userID": "1126223",
                 "review": "probble teh best tea I've ever had",
-                "rating": 5
+                "rating": 2
             }
         ],
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea itaque, id voluptatem quam enim incidunt optio vel quasi aperiam iure officia dolorum, dignissimos dolorem esse natus culpa ipsa nihil. Rem ut illo magni debitis consequuntur dolore officiis delectus dignissimos fugiat inventore et soluta sunt nihil ducimus ullam, odit, explicabo voluptates, animi porro minus aliquid necessitatibus cum. Tenetur, quidem officiis quibusdam cupiditate exercitationem eius odio id ratione natus aliquid molestias maxime illum praesentium cum voluptates iure rem culpa illo nobis tempore vel beatae. Maxime quidem aliquam accusamus amet autem quaerat facilis corporis minima, ea voluptatibus animi cumque labore facere voluptate quam? Pariatur, ratione perspiciatis. Ab a eos, molestiae, inventore id incidunt ad, reiciendis ipsa tempore nisi corporis vel animi praesentium. Cumque, labore. Harum dolorum eaque deserunt debitis facilis assumenda dolore, error distinctio iste aliquam eius velit tenetur excepturi, adipisci impedit delectus ducimus provident animi voluptas, possimus laudantium. Cum numquam quo nobis?"
@@ -301,7 +301,7 @@
         "category": "Tea",
         "thumbnail": "http://kaffa.like-themes.com/wp-content/uploads/2019/06/01-1-100x100.png",
         "image": "https://img.freepik.com/premium-photo/cup-cappuccino-coffee-with-biscuits-served-wooden-table-garden_76000-7457.jpg",
-        "reviewCount": [
+        "reviews": [
             {
                 "userID": "112223",
                 "review": "probble teh best tea I've ever had",
