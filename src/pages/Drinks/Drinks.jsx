@@ -31,7 +31,7 @@ const Drinks = () => {
 
     return (
         <>
-            <PageCover title="All Drinks" subTitle="Premium quality drinks" />
+            <PageCover title="All Drinks" />
             <div className="container mx-auto flex justify-between gap-8 py-20">
                 <Sidebar />
                 <div className="w-3/4 space-y-8">

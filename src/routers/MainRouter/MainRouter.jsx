@@ -6,6 +6,7 @@ import Auth from "../../pages/Auth/Auth";
 import Login from "../../components/Login/Login";
 import Register from "../../components/Register/Register";
 import Drinks from "../../pages/Drinks/Drinks";
+import DrinkDetails from "../../pages/DrinkDetails/DrinkDetails";
 
 const MainRouter = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const MainRouter = createBrowserRouter([
             {
                 path: "/drinks",
                 element: <Drinks />,
+            },
+            {
+                path: "/product/:id",
+                element: <DrinkDetails />,
             },
         ],
     },

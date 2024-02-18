@@ -19,7 +19,7 @@ const PageCover = ({ title, subTitle }) => {
                 <h1 className="text-4xl sm:text-5xl font-bold text-white">{title}</h1>
 
                 <p className="absolute left-0 hidden sm:block font-jost font-medium text-white -rotate-90">
-                    {subTitle}
+                    {subTitle || "Premium quality drinks"}
                 </p>
 
                 <div className="absolute right-0 rotate-90 hidden sm:flex justify-center items-center gap-3">
@@ -40,7 +40,7 @@ const PageCover = ({ title, subTitle }) => {
     );
 };
 PageCover.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     subTitle: PropTypes.string,
 };
 export default PageCover;
