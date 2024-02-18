@@ -34,7 +34,7 @@ const Drinks = () => {
                 <div className="w-3/4 space-y-8">
                     <SortBar />
 
-                    <section className="grid grid-cols-4 gap-12">
+                    <section className="grid grid-cols-4 gap-10">
                         {products?.map((product) => (
                             <ProductCard product={product} key={product?._id} />
                         ))}
@@ -47,7 +47,23 @@ const Drinks = () => {
                 show={showPreviewModal}
                 onClose={() => setShowPreviewModal(false)}
             >
-                <Modal.Header>{productForPreview?.name}</Modal.Header>
+                <Modal.Header/>
+
+                <div className="flex justify-between gap-12">
+                    <div className="w-1/2">
+                        <img
+                            className="w-full rounded-lg"
+                            src={productForPreview?.image}
+                            alt={productForPreview?.name}
+                        />
+                    </div>
+
+                    <div className="w-1/2">
+                        <h1 className="text-2xl font-bold">
+                            ৳ {productForPreview?.price}
+                        </h1>
+                    </div>
+                </div>
             </Modal>
         </>
     );
