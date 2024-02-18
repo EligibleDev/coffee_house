@@ -5,12 +5,14 @@ import SortBar from "./components/SortBar/SortBar";
 import ProductCard from "../../components/ProductCard/ProductCard";
 import { Modal } from "keep-react";
 import useUtils from "../../hooks/useUtils/useUtils";
+import ProductPreview from "./components/ProductPreview/ProductPreview";
 
 const Drinks = () => {
     const [products, setProducts] = useState([]);
     const { showPreviewModal, setShowPreviewModal } = useUtils();
     const [productForPreview, setProductForPreview] = useState({});
 
+    //fetching all products
     useEffect(() => {
         fetch("/best-sellers.json")
             .then((res) => res.json())
@@ -18,6 +20,7 @@ const Drinks = () => {
             .catch((error) => console.error(error));
     }, []);
 
+    //finding the product to show on the preview modal
     useEffect(() => {
         const productForPreview = products.find(
             (product) => showPreviewModal === product?._id
@@ -47,23 +50,8 @@ const Drinks = () => {
                 show={showPreviewModal}
                 onClose={() => setShowPreviewModal(false)}
             >
-                <Modal.Header/>
-
-                <div className="flex justify-between gap-12">
-                    <div className="w-1/2">
-                        <img
-                            className="w-full rounded-lg"
-                            src={productForPreview?.image}
-                            alt={productForPreview?.name}
-                        />
-                    </div>
-
-                    <div className="w-1/2">
-                        <h1 className="text-2xl font-bold">
-                            ৳ {productForPreview?.price}
-                        </h1>
-                    </div>
-                </div>
+                <Modal.Header />
+                <ProductPreview product={productForPreview} />
             </Modal>
         </>
     );

@@ -8,10 +8,17 @@ import useUtils from "../../hooks/useUtils/useUtils";
 const ProductCard = ({ product }) => {
     const { addToCart, setShowPreviewModal } = useUtils();
 
+    //rating configuration start
     const stars = [];
     for (let i = 0; i < product.rating; i++) {
         stars.push(<Rating.Star className="mr-0 rating" filledType="fill" key={i} />);
     }
+
+    const emptyStars = [];
+    for (let i = 0; i < 5 - product.rating; i++) {
+        emptyStars.push(<Rating.Star className="mr-0 empty-rating" key={i} />);
+    }
+    //rating configuration end
 
     return (
         <div className="card rounded-full border border-dashed border-primary-green h-80 flex flex-col justify-between">
@@ -26,7 +33,10 @@ const ProductCard = ({ product }) => {
             <div className="lower-part w-full">
                 <div className="lower-part-face w-full h-full flex flex-col items-center justify-center gap-1 bg-primary-green rounded-b-full">
                     <p className="font-medium">{product.name}</p>
-                    <Rating className="gap-1">{stars}</Rating>
+                    <Rating className="gap-1">
+                        {stars}
+                        {emptyStars}
+                    </Rating>
                     <p>
                         ৳ <b className="font-jost">{product.price}</b>
                     </p>
