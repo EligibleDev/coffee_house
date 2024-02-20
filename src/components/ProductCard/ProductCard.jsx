@@ -14,8 +14,6 @@ const ProductCard = ({ product }) => {
             product?.reviews?.length
     );
 
-    console.log(productRating);
-
     const stars = [];
     for (let i = 0; i < productRating; i++) {
         stars.push(<Rating.Star className="mr-0 rating" filledType="fill" key={i} />);
