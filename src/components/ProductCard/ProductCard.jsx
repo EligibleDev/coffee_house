@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
     const { addToCart, setShowPreviewModal } = useUtils();
 
     //rating configuration start
-    const productRating = Math.ceil(
+    const productRating = Math.floor(
         product?.reviews.reduce((previous, current) => previous + current.rating, 0) /
             product?.reviews?.length
     );

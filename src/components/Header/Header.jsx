@@ -30,7 +30,7 @@ const Header = () => {
                             {navLinks.map((item) => (
                                 <NavLink
                                     to={item.link}
-                                    className="text-sm font-bold text-white"
+                                    className="text-sm font-bold text-white hover:text-primary-green transition"
                                     key={item.link}
                                 >
                                     {item.label}

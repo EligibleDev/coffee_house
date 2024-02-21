@@ -3,19 +3,23 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const IconButton = ({ icon: Icon, onClick, link, tooltip, className }) => {
-    const classes = `bg-primary-green p-2 text-lg rounded-full h-fit   ${className && className}`;
+    const classes = `bg-primary-green p-2 text-lg rounded-full h-fit   ${
+        className && className
+    }`;
 
     return (
         <Tooltip content={tooltip}>
-            <button className={classes} onClick={onClick && onClick}>
-                {onClick ? (
+            {onClick ? (
+                <button className={classes} onClick={onClick && onClick}>
                     <Icon />
-                ) : (
-                    <Link to={link && link}>
+                </button>
+            ) : (
+                <Link to={link && link}>
+                    <button className={classes}>
                         <Icon />
-                    </Link>
-                )}
-            </button>
+                    </button>
+                </Link>
+            )}
         </Tooltip>
     );
 };

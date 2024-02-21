@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const ProductPreview = ({ product }) => {
     //rating configuration start
-    const productRating = Math.ceil(
+    const productRating = Math.floor(
         product?.reviews.reduce((previous, current) => previous + current.rating, 0) /
             product?.reviews?.length
     );
@@ -32,10 +32,14 @@ const ProductPreview = ({ product }) => {
             </div>
 
             <div className="w-1/2 space-y-4">
-                <h1 className="text-4xl font-bold">{product?.name}</h1>
+                <span className="space-y-1">
+                    <h1 className="text-4xl font-bold">{product?.name}</h1>
+
+                    <p className="font-jost">{product?.shortDescription}</p>
+                </span>
 
                 <h2 className="text-2xl font-medium">
-                    ৳ <span className="font-semibold">{product?.price}</span>
+                    ৳ <span className="font-semibold font-jost">{product?.price}</span>
                 </h2>
 
                 <div className="flex items-center gap-4">
@@ -43,12 +47,12 @@ const ProductPreview = ({ product }) => {
                         {stars}
                         {emptyStars}
                     </Rating>
-                    <Link to={`/product/${product?._id}#reviews`} className="">
+                    <Link to={`/product/${product?._id}#reviews`} className="font-jost">
                         (<b>{product?.reviews?.length}</b> Customer Reviews)
                     </Link>
                 </div>
 
-                <p className="">{product?.description.slice(0, 150)}...</p>
+                <p className="font-jost">{product?.description.slice(0, 150)}...</p>
 
                 <PrimaryButton text="View Details" link={`/product/${product?._id}`} />
             </div>
