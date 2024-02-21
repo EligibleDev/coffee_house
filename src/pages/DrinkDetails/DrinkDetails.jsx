@@ -18,14 +18,14 @@ const DrinkDetails = () => {
     return (
         <>
             <PageCover title={product?.name} />
-            <div className="container mx-auto flex gap-12 justify-between py-20">
+            <div className="container mx-auto flex flex-col lg:flex-row gap-12 justify-between px-8 xl:px-0 py-20">
                 <img
-                    className="w-1/2 rounded-lg"
+                    className="w-full lg:w-1/2 rounded-lg object-cover"
                     src={product?.image}
                     alt={product?.name}
                 />
 
-                <div className="w-1/2 space-y-4">
+                <div className="w-full lg:w-1/2 h-auto space-y-4">
                     <h1 className="text-3xl font-semibold">
                         {product?.shortDescription}
                     </h1>
