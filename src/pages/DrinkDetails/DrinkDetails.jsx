@@ -9,6 +9,8 @@ const DrinkDetails = () => {
     const [shortDescription, setShortDescription] = useState(true);
     const [quantity, setQuantity] = useState(1);
 
+    //gotta continue the streak
+
     useEffect(() => {
         fetch("/best-sellers.json")
             .then((res) => res.json())
